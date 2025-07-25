@@ -1,5 +1,5 @@
 const addToCartModel = require("../../models/cartProduct");
-const stripe = require('stripe')('sk_test_51PJVJZSGpZvoPybBYEufDLfAHcVXwiHaWRJugJpwhjZOAIZs7giMxWe6YRpiIfgZSWBMYdv4Kib76McP8bEtLQqP00HRQH2rYz');
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 const userCheckout = async (req, res) => {
     try {

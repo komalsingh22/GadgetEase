@@ -5,8 +5,7 @@ const bodyParser = require('body-parser');
 require('dotenv').config()
 const connectDB = require('./config/db')
 const router = require('./routes')
-const stripe = require('stripe')('sk_test_51PJVJZSGpZvoPybBYEufDLfAHcVXwiHaWRJugJpwhjZOAIZs7giMxWe6YRpiIfgZSWBMYdv4Kib76McP8bEtLQqP00HRQH2rYz')
-
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
 const app = express()
 app.use(cors({
