@@ -1,86 +1,91 @@
+# Gadget Ease 🛒
+
+**Gadget Ease** is a full-featured e-commerce platform built for electronics lovers. It provides a seamless shopping experience with personalized recommendations, fast checkout, secure payments, and modern UI — all optimized for both users and administrators.
+
+---
+
+## 📸 Demo Screenshots
+
+![WhatsApp Image 2025-07-25 at 16 36 48](https://github.com/user-attachments/assets/d062b3e0-fbf5-45f2-8d25-ca0eb07b54f7)
+
+![WhatsApp Image 2025-07-25 at 16 36 48 (1)](https://github.com/user-attachments/assets/b310d895-a901-4c13-9a0a-1cc0b704de3e)
+
+![WhatsApp Image 2025-07-25 at 16 36 49](https://github.com/user-attachments/assets/a79cfeb9-892a-43e4-b297-fbe673ebce4e)
+![WhatsApp Image 2025-07-25 at 16 36 49 (1)](https://github.com/user-attachments/assets/8e57e4b9-994b-419f-9709-d7a93aae7ac5)
 
 
-# Gadget Ease
+![WhatsApp Image 2025-07-25 at 16 36 49 (2)](https://github.com/user-attachments/assets/90d970a1-342f-4a40-8099-ebe86bbf3cb9)
 
-**Gadget Ease** is a modern and secure e-commerce platform built for tech and electronics enthusiasts. It offers a seamless shopping experience with personalized features, secure transactions, and robust admin tools.
 
-## 🔍 Features
+## 🚀 Features
 
-### 👤 User Module
+### 👤 User Features
+- Secure login & registration with JWT and 2FA
+- Social login via Google and Facebook
+- Personalized user dashboard with:
+  - Order tracking
+  - Wishlist
+  - Saved addresses and payment methods
 
-* Secure JWT-based authentication
-* Google/Facebook social login + 2FA
-* User dashboard with order tracking, wishlist, and saved addresses
+### 🛍️ Shopping Experience
+- Advanced filtering, sorting, and product comparison
+- Real-time cart updates and availability checks
+- AI-based product recommendations
+- Express checkout with multiple payment options (Credit, UPI, Wallet, EMI)
 
-### 🛍️ Shopping & Products
+### 📦 Orders & Inventory
+- Real-time order tracking and automated invoice generation
+- Easy return & refund process
+- Stock alerts and pre-order support
 
-* Advanced filtering, sorting & product comparison
-* Wishlist, real-time cart updates, express checkout
-* AI-driven product recommendations
+### 🧑‍💼 Admin Panel
+- Role-based access (Admin, Vendor, Customer)
+- Product & inventory management
+- Order handling and user insights
+- Analytics dashboard
 
-### 📦 Order & Inventory Management
+### 💬 Support & Engagement
+- Live chat & chatbot integration
+- FAQ and help center
+- User reviews and rating system
 
-* Real-time order tracking with invoice generation
-* Pre-order & stock alert system
-* Easy returns & refund handling
-
-### 🧑‍💼 Admin Dashboard
-
-* Role-based access (Admin, Vendor, Customer)
-* Inventory, order, and customer management
-* Analytics & insights dashboard
-
-### 💬 Customer Support
-
-* Live chat, chatbot, and ticketing system
-* User reviews & ratings
-* FAQ section
 
 ## 🧱 Tech Stack
 
-| Layer          | Tech Stack                         |
-| -------------- | ---------------------------------- |
-| Frontend       | React.js, Tailwind CSS, JavaScript |
-| Backend        | Node.js, Express.js                |
-| Database       | MongoDB + Mongoose ORM             |
-| Authentication | JWT, OAuth (Google, Facebook)      |
-| Payments       | Stripe                             |
-| Storage        | AWS S3                             |
-| Notifications  | Firebase (Push), Twilio (SMS)      |
-| Caching        | Redis                              |
-| Deployment     | NGINX, Cloud Hosting               |
-| Testing        | Jest, Cypress, Postman, JMeter     |
+| Layer        | Tech Stack                             |
+|--------------|----------------------------------------|
+| Frontend     | React.js, Tailwind CSS, JavaScript     |
+| Backend      | Node.js, Express.js                    |
+| Database     | MongoDB + Mongoose ORM                 |
+| Authentication | JWT, OAuth (Google, Facebook)         |
+| Payments     | Stripe                                 |
+| Storage      | AWS S3                                 |
+| Notifications| Firebase (Push), Twilio (SMS)          |
+| Caching      | Redis                                  |
+| Deployment   | NGINX, Cloud Hosting                   |
+| Testing      | Jest, Cypress, Postman, JMeter         |
 
-## 📐 System Architecture
+---
 
-* Microservices-based scalable architecture
-* RESTful APIs
-* SEO Optimized + Responsive Design
-* Caching layer (Redis) + Load balancing
+## 🛠️ Architecture
 
-## 🧪 Testing
+- **Frontend**: React.js SPA optimized for SEO and performance
+- **Backend**: Node.js + Express with REST APIs
+- **Database**: MongoDB with Mongoose
+- **Cache**: Redis for fast performance
+- **Load Balancing**: NGINX for high availability
 
-* **Unit Testing:** Jest, React Testing Library
-* **API Testing:** Postman, Swagger
-* **E2E Testing:** Cypress, Selenium
-* **Performance Testing:** Apache JMeter
+---
 
 
-## 🔐 Security
 
-* Encrypted data storage & JWT-based session security
-* Fraud detection system for transactions
-* Role-based access control
-* Content moderation for reviews & comments
+## 🔒 Security
 
-## 🎨 UI/UX
-
-* Fully responsive design (mobile-first)
-* SEO-friendly
-* Dark mode support
-
-
-**📧 Contact:** For any queries or contributions, feel free to reach out.
+- JWT-based secure sessions
+- Data encryption for sensitive information
+- 2FA login support
+- Content moderation for reviews
+- Fraud detection & transaction monitoring
 
 
 
